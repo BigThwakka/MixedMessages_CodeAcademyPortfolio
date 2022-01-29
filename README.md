@@ -27,16 +27,16 @@ First an object is declared with 3 quotes individually stored as arrays of 3.
 Rather than storing the quotes as lone strings in an object, I stored them as arrays that can be rearranged upon execution easier. This saves me from having to read and store the seperate strings into an array within a nested loop or potentially a second function.
 
 In the function, three things happen;
-* The randomisation of an integer varable that represents the quote in the object
-* A while loop where the counter represents the position of that array within the selected property
-* A switch statement that determines what quote is selected
++ The randomisation of an integer varable that represents the quote in the object
++ A while loop where the counter represents the position of that array within the selected property
++ A switch statement that determines what quote is selected
 
 Because the counter counts until 2, every iteration of the randomly selected quote is in conjunction with the sentence's formatting (so it makes sense!). So when we run the program, the quotes are in order to create a humorous response.
 
 #### Quotes:
-Star Wars: "No, I am your father!"
-Predator: "RAAARGH, get to the Chopper!"
-Iron Man 2: "Jarvis, check the heart!"
+* Star Wars: "No, I am your father!"
+* Predator: "RAAARGH, get to the Chopper!"
+* Iron Man 2: "Jarvis, check the heart!"
 
 #### Example Output:
     "No, get to the heart!"
