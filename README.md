@@ -26,7 +26,7 @@ Finally you would print the array using concatination. The second part I couldn'
 First an object is declared with 3 quotes individually stored as arrays of 3.
 Rather than storing the quotes as lone strings in an object, I stored them as arrays that can be rearranged upon execution easier. This saves me from having to read and store the seperate strings into an array within a nested loop or potentially a second function.
 
-    In the function, three things happen;
+In the function, three things happen;
 * The randomisation of an integer varable that represents the quote in the object
 * A while loop where the counter represents the position of that array within the selected property
 * A switch statement that determines what quote is selected
@@ -39,4 +39,4 @@ Predator: "RAAARGH, get to the Chopper!"
 Iron Man 2: "Jarvis, check the heart!"
 
 #### Example Output:
-"No, get to the heart!"
+    "No, get to the heart!"
